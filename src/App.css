@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.outDiv {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  overflow: scroll;
+  overflow-x: hidden;
+  position: fixed;
+}
+.mainContentContainer {
+  background-color: #afd4c0;
+  height: 92vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}

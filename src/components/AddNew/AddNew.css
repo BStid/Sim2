@@ -1,0 +1,54 @@
+.addNewContainer {
+  height: 92vh;
+  width: 50vw;
+  background-color: #e5f4ec;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.addNewHeader {
+  width: 96%;
+  height: 8vh;
+  border-bottom: 1px solid black;
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  color: #3b5249;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+.cancelButton,
+.cancelButton:hover,
+.cancelButton:visited,
+.cancelButton:active {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background-color: rgb(254, 194, 194);
+  border: 1px solid rgb(254, 194, 194);
+  position: relative;
+  top: 10px;
+  left: 45%;
+  padding: 6px;
+  font-weight: 600;
+}
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.inputDiv {
+  padding: 1.5%;
+  margin: 10px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.inputBox {
+  width: 100%;
+  height: 20px;
+  border: 2px solid black;
+}
